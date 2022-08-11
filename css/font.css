@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Cera Pro Black";
+  src: url("../font/Cera\ Pro\ Black.otf") format("opentype"),
+    url("../font/Cera\ Pro\ Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cera Pro Bold";
+  src: url("../font/Cera\ Pro\ Bold.otf") format("opentype"),
+    url("../font/Cera\ Pro\ Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cera Pro Medium";
+  src: url("../font/Cera\ Pro\ Medium.otf") format("opentype"),
+    url("../font/Cera\ Pro\ Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cera Pro Light";
+  src: url("../font/Cera\ Pro\ Light.otf") format("opentype"),
+    url("../font/Cera\ Pro\ Light.ttf") format("truetype");
+}

@@ -1,0 +1,215 @@
+:root {
+  --dark-blue: #00425f;
+  --light-blue: #00b8de;
+  --btn-bg: #0275d8;
+}
+
+body {
+  color: black;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* container banner starts */
+.container_banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #f5f6f7;
+}
+.container_banner h1 {
+  margin: 0px;
+  font-weight: bold;
+  color: var(--light-blue);
+  font-family: "Cera Pro Black";
+  text-align: center;
+}
+.container_banner p {
+  margin: 0px;
+  font-weight: 300;
+  color: var(--dark-blue);
+  font-family: "Cera Pro Light";
+  font-size: 15px;
+  width: 35%;
+  text-align: center;
+}
+.container_banner img {
+  margin: 30px 0;
+}
+.container_banner h4 {
+  margin: 0px;
+  font-weight: 300;
+  color: var(--light-blue);
+  font-family: "Cera Pro Medium";
+  font-size: 11px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container_banner ul {
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.container_banner ul li {
+  margin-right: 30px;
+}
+.container_banner ul li .payment_method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container_banner ul li .payment_method .img_box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--light-blue);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container_banner ul li .payment_method .img_box img {
+  width: 50%;
+}
+.container_banner ul li .payment_method span {
+  margin-top: 5px;
+  font-family: "Cera Pro Bold";
+  font-size: 10px;
+  color: var(--dark-blue);
+}
+/* container banner ends */
+
+/* form container starts */
+.form_container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_container h1 {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  color: var(--dark-blue);
+  font-family: "Cera Pro Bold";
+  text-align: center;
+  font-size: 25px;
+}
+.form_container p {
+  margin: 0px;
+  font-weight: 300;
+  color: var(--dark-blue);
+  font-family: "Cera Pro Light";
+  font-size: 15px;
+  width: 60%;
+  text-align: center;
+}
+.form_container form {
+  width: 100%;
+  margin-top: 20px;
+}
+.box_1 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+.form-control {
+  font-size: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: var(--dark-blue);
+  font-family: "Cera Pro Light";
+}
+input {
+  padding: 10px;
+  height: 30px;
+  border-radius: 5px;
+  width: -webkit-fill-available;
+  border: 1px solid #dbe0e4;
+  font-size: 18px;
+  outline: none;
+  color: var(--dark-blue);
+  font-size: 14px;
+  font-family: "Cera Pro Light";
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #dbe0e4;
+  color: var(--dark-blue);
+  font-size: 14px;
+  font-family: "Cera Pro Light";
+}
+.radio_group {
+  display: flex;
+  align-items: center;
+}
+.radio_group input {
+  width: auto;
+}
+.radio_group label {
+  margin: 0 10px 0 0;
+}
+.agree_to_policy {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(--dark-blue);
+  font-family: "Cera Pro Light";
+}
+.agree_to_policy label {
+  margin: 0;
+}
+.agree_to_policy label strong {
+  font-family: "Cera Pro Bold";
+}
+.agree_to_policy label span {
+  font-size: 16px;
+  font-weight: 800;
+}
+input[type="checkbox"] {
+  width: auto;
+}
+.invalid {
+  border: 1px solid red;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+  display: flex;
+  font-family: "Cera Pro Light";
+}
+.hide {
+  display: none;
+}
+button {
+  height: 50px;
+  border: none;
+  color: #fff;
+  background-color: var(--btn-bg);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 100%;
+  font-family: "Cera Pro Medium";
+}
+
+button:hover {
+  color: white;
+}
